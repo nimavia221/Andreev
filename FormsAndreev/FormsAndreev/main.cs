@@ -44,7 +44,7 @@ namespace FormsAndreev
         {
             string Login = txtLogin.Text;
             string Pass = txtPass.Text;
-            string sqlUser = String.Format($"SELECT Логин, Пароль, Роль FROM Пользователь  WHERE Логин='{Login}' AND Пароль={Pass}");
+            string sqlUser = String.Format($"SELECT Логин, Пароль, Роль FROM Пользователь  WHERE Логин='{Login.ToString()}' AND Пароль='{Pass.ToString()}'");
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 conn.Open();//подключение открыто
@@ -79,7 +79,7 @@ namespace FormsAndreev
                     }
                        
                 else
-                    MessageBox.Show("Некорректный ввод");
+                    MessageBox.Show("Неверные данные");
             }
         }
     }
