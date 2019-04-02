@@ -40,8 +40,7 @@ namespace FormsAndreev
         {
             string Login = txtLogin.Text;
             string Pass = txtPass.Text;
-            string sqlUser = String.Format("SELECT Логин, Пароль FROM Пользователь  
-            WHERE Логин='{0}' AND Пароль={ 1}" Login,Pass);
+            string sqlUser = String.Format($"SELECT Логин, Пароль, Роль FROM Пользователь  WHERE Логин='{Login}' AND Пароль={Pass}");
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 conn.Open();//подключение открыто
@@ -49,7 +48,27 @@ namespace FormsAndreev
                 SqlDataReader reader = cmd.ExecuteReader();
                 if (reader.HasRows)
                     while (reader.Read())
+                    {
                         MessageBox.Show("Добро пожаловать" + reader.GetValue(0) + reader.GetValue(1));
+                        string Role = reader.GetValue(2).ToString();
+                        switch (Role)
+                        {
+                            case "Менеджер":
+                                MessageBox.Show("Менеджер");
+                                break;
+                            case "Кладовщик":
+                                MessageBox.Show("Кладовщик");
+                                break;
+                            case "Заказчик":
+                                MessageBox.Show("Заказчик");
+                                break;
+                            case "Руководитель":
+                                MessageBox.Show("Руководитель");
+                                break;
+
+                        }
+                    }
+                       
                 else
                     MessageBox.Show("Некорректный ввод");
             }

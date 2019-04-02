@@ -1,1 +1,10 @@
 E:\Andreev\FormsAndreev\FormsAndreev\bin\Debug\FormsAndreev.exe.config
+E:\Andreev\Andreev\FormsAndreev\FormsAndreev\bin\Debug\FormsAndreev.exe.config
+E:\Andreev\Andreev\FormsAndreev\FormsAndreev\bin\Debug\FormsAndreev.exe
+E:\Andreev\Andreev\FormsAndreev\FormsAndreev\bin\Debug\FormsAndreev.pdb
+E:\Andreev\Andreev\FormsAndreev\FormsAndreev\obj\Debug\FormsAndreev.csprojResolveAssemblyReference.cache
+E:\Andreev\Andreev\FormsAndreev\FormsAndreev\obj\Debug\FormsAndreev.Form1.resources
+E:\Andreev\Andreev\FormsAndreev\FormsAndreev\obj\Debug\FormsAndreev.Properties.Resources.resources
+E:\Andreev\Andreev\FormsAndreev\FormsAndreev\obj\Debug\FormsAndreev.csproj.GenerateResource.Cache
+E:\Andreev\Andreev\FormsAndreev\FormsAndreev\obj\Debug\FormsAndreev.exe
+E:\Andreev\Andreev\FormsAndreev\FormsAndreev\obj\Debug\FormsAndreev.pdb
