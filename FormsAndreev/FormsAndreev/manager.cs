@@ -32,5 +32,19 @@ namespace FormsAndreev
 
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string connectionString = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
+            using (var sqlConnection1 = new SqlConnection(connectionString))
+            {
+                SqlCommand cmd = new SqlCommand($"SELECT * FROM Заказ", sqlConnection1);
+                SqlDataAdapter sda = new SqlDataAdapter(cmd);
+                DataTable ds = new DataTable();
+                sda.Fill(ds);
+                dataGridView1.DataSource = ds;
+
+            }
+        }
     }
 }

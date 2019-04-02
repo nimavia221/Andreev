@@ -1,6 +1,6 @@
 ﻿namespace FormsAndreev
 {
-    partial class Form1
+    partial class main
     {
         /// <summary>
         /// Обязательная переменная конструктора.

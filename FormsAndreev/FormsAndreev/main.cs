@@ -13,7 +13,7 @@ using System.Configuration;
 
 namespace FormsAndreev
 {
-    public partial class Form1 : Form
+    public partial class main : Form
     {
         // вызов строки подключения из файла конфигурации
         string connectionString = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
@@ -21,7 +21,7 @@ namespace FormsAndreev
         DataSet ds; // набор данных
         string sql = "SELECT * FROM Пользователь"; // запрос для формирования набора данных
 
-        public Form1()
+        public main()
         {
             InitializeComponent();
         }
@@ -33,7 +33,7 @@ namespace FormsAndreev
 
         private void btnReg_Click(object sender, EventArgs e)
         {
-            Form1 f = new Form1();
+            main f = new main();
             reg r = new FormsAndreev.reg();
             f.Hide();
             r.Show();
@@ -59,10 +59,11 @@ namespace FormsAndreev
                         {
                             case "Менеджер":
                                 MessageBox.Show("Менеджер");
-                                Form1 f = new Form1();
+                                main f = new main();
                                 manager r = new manager();
-                                f.Hide();
                                 r.Show();
+                                f.Hide();
+                                
                                 break;
                             case "Кладовщик":
                                 MessageBox.Show("Кладовщик");
