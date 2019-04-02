@@ -59,6 +59,10 @@ namespace FormsAndreev
                         {
                             case "Менеджер":
                                 MessageBox.Show("Менеджер");
+                                Form1 f = new Form1();
+                                manager r = new manager();
+                                f.Hide();
+                                r.Show();
                                 break;
                             case "Кладовщик":
                                 MessageBox.Show("Кладовщик");

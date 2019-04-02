@@ -9,3 +9,4 @@ E:\Andreev\Andreev\FormsAndreev\FormsAndreev\obj\Debug\FormsAndreev.csproj.Gener
 E:\Andreev\Andreev\FormsAndreev\FormsAndreev\obj\Debug\FormsAndreev.exe
 E:\Andreev\Andreev\FormsAndreev\FormsAndreev\obj\Debug\FormsAndreev.pdb
 E:\Andreev\Andreev\FormsAndreev\FormsAndreev\obj\Debug\FormsAndreev.reg.resources
+E:\Andreev\Andreev\FormsAndreev\FormsAndreev\obj\Debug\FormsAndreev.manager.resources
