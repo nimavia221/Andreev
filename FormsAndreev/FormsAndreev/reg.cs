@@ -25,6 +25,8 @@ namespace FormsAndreev
             int i = 0;
             int len = 0;
             bool num = false;
+            bool pass_char = false;
+            bool chr = false;
             string login = textBox1.Text;
             string pass = textBox2.Text;
             
@@ -36,9 +38,16 @@ namespace FormsAndreev
                 {
                     num = true;
                 }
+                if(a == '!' || a == '@' || a == '#' || a == '$' || a == '%' || a == '^' )
+                {
+                    pass_char = true;
+                }
+                if(((int)a >= 224 && (int)a <= 255) || ((int)a>=97 && (int)a <= 122)){
+                    chr = true;
+                }
             }
 
-            if (len < 6 || num == false)
+            if (len < 6 || num == false || pass_char == false || chr == false)
             {
                 MessageBox.Show("Неверный тип пароля");
             }
