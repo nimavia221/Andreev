@@ -8,3 +8,4 @@ E:\Andreev\Andreev\FormsAndreev\FormsAndreev\obj\Debug\FormsAndreev.Properties.R
 E:\Andreev\Andreev\FormsAndreev\FormsAndreev\obj\Debug\FormsAndreev.csproj.GenerateResource.Cache
 E:\Andreev\Andreev\FormsAndreev\FormsAndreev\obj\Debug\FormsAndreev.exe
 E:\Andreev\Andreev\FormsAndreev\FormsAndreev\obj\Debug\FormsAndreev.pdb
+E:\Andreev\Andreev\FormsAndreev\FormsAndreev\obj\Debug\FormsAndreev.reg.resources

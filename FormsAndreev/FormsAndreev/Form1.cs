@@ -33,6 +33,10 @@ namespace FormsAndreev
 
         private void btnReg_Click(object sender, EventArgs e)
         {
+            Form1 f = new Form1();
+            reg r = new FormsAndreev.reg();
+            f.Hide();
+            r.Show();
 
         }
 
