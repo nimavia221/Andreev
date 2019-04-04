@@ -28,87 +28,87 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.btnReg = new System.Windows.Forms.Button();
+            this.txtLogin = new System.Windows.Forms.TextBox();
+            this.txtPass = new System.Windows.Forms.TextBox();
+            this.lblLogin = new System.Windows.Forms.Label();
+            this.lblFIO = new System.Windows.Forms.Label();
+            this.txtFIO = new System.Windows.Forms.TextBox();
+            this.lblPass = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // btnReg
             // 
-            this.button1.Location = new System.Drawing.Point(26, 156);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(122, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Зарегистрироваться";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnReg.Location = new System.Drawing.Point(26, 156);
+            this.btnReg.Name = "btnReg";
+            this.btnReg.Size = new System.Drawing.Size(122, 23);
+            this.btnReg.TabIndex = 0;
+            this.btnReg.Text = "Зарегистрироваться";
+            this.btnReg.UseVisualStyleBackColor = true;
+            this.btnReg.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox1
+            // txtLogin
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 25);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(150, 20);
-            this.textBox1.TabIndex = 1;
+            this.txtLogin.Location = new System.Drawing.Point(12, 25);
+            this.txtLogin.Name = "txtLogin";
+            this.txtLogin.Size = new System.Drawing.Size(150, 20);
+            this.txtLogin.TabIndex = 1;
             // 
-            // textBox2
+            // txtPass
             // 
-            this.textBox2.Location = new System.Drawing.Point(12, 79);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(150, 20);
-            this.textBox2.TabIndex = 2;
+            this.txtPass.Location = new System.Drawing.Point(12, 79);
+            this.txtPass.Name = "txtPass";
+            this.txtPass.Size = new System.Drawing.Size(150, 20);
+            this.txtPass.TabIndex = 2;
             // 
-            // label1
+            // lblLogin
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(41, 13);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Логин:";
+            this.lblLogin.AutoSize = true;
+            this.lblLogin.Location = new System.Drawing.Point(12, 9);
+            this.lblLogin.Name = "lblLogin";
+            this.lblLogin.Size = new System.Drawing.Size(41, 13);
+            this.lblLogin.TabIndex = 3;
+            this.lblLogin.Text = "Логин:";
             // 
-            // label2
+            // lblFIO
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 112);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(37, 13);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "ФИО:";
+            this.lblFIO.AutoSize = true;
+            this.lblFIO.Location = new System.Drawing.Point(12, 112);
+            this.lblFIO.Name = "lblFIO";
+            this.lblFIO.Size = new System.Drawing.Size(37, 13);
+            this.lblFIO.TabIndex = 4;
+            this.lblFIO.Text = "ФИО:";
             // 
-            // textBox3
+            // txtFIO
             // 
-            this.textBox3.Location = new System.Drawing.Point(12, 128);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(150, 20);
-            this.textBox3.TabIndex = 2;
+            this.txtFIO.Location = new System.Drawing.Point(12, 128);
+            this.txtFIO.Name = "txtFIO";
+            this.txtFIO.Size = new System.Drawing.Size(150, 20);
+            this.txtFIO.TabIndex = 2;
             // 
-            // label3
+            // lblPass
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 63);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(48, 13);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Пароль:";
+            this.lblPass.AutoSize = true;
+            this.lblPass.Location = new System.Drawing.Point(12, 63);
+            this.lblPass.Name = "lblPass";
+            this.lblPass.Size = new System.Drawing.Size(48, 13);
+            this.lblPass.TabIndex = 4;
+            this.lblPass.Text = "Пароль:";
             // 
             // reg
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(179, 194);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.lblPass);
+            this.Controls.Add(this.lblFIO);
+            this.Controls.Add(this.lblLogin);
+            this.Controls.Add(this.txtFIO);
+            this.Controls.Add(this.txtPass);
+            this.Controls.Add(this.txtLogin);
+            this.Controls.Add(this.btnReg);
             this.Name = "reg";
-            this.Text = "Form2";
+            this.Text = "registration";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -117,12 +117,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button btnReg;
+        private System.Windows.Forms.TextBox txtLogin;
+        private System.Windows.Forms.TextBox txtPass;
+        private System.Windows.Forms.Label lblLogin;
+        private System.Windows.Forms.Label lblFIO;
+        private System.Windows.Forms.TextBox txtFIO;
+        private System.Windows.Forms.Label lblPass;
     }
 }

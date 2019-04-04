@@ -9,6 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Configuration;
+using System.Reflection;
+using ExcelObj = Microsoft.Office.Interop.Excel;
+
 
 namespace FormsAndreev
 {
@@ -24,7 +27,7 @@ namespace FormsAndreev
             string connectionString = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
             using (var sqlConnection1 = new SqlConnection(connectionString))
             {
-                SqlCommand cmd = new SqlCommand($"SELECT * FROM Ткань", sqlConnection1);
+                SqlCommand cmd = new SqlCommand($"SELECT * FROM Изделия$", sqlConnection1);
                 SqlDataAdapter sda = new SqlDataAdapter(cmd);
                 DataTable ds = new DataTable();
                 sda.Fill(ds);
@@ -45,6 +48,34 @@ namespace FormsAndreev
                 dataGridView1.DataSource = ds;
 
             }
+        }
+
+        private void tabPage1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+       
+
+        private void manager_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+           
+
         }
     }
 }

@@ -59,21 +59,31 @@ namespace FormsAndreev
                         {
                             case "Менеджер":
                                 MessageBox.Show("Менеджер");
-                                main f = new main();
                                 manager r = new manager();
                                 r.Show();
-                                f.Hide();
-                                
+                                this.Hide();
+                                user.login = Login;
                                 break;
+
                             case "Кладовщик":
                                 MessageBox.Show("Кладовщик");
+                                user.login = Login;
                                 break;
+
+                                
                             case "Заказчик":
                                 MessageBox.Show("Заказчик");
+                                user.login = Login;
+                                Zakaz z = new Zakaz();
+                                z.Show();
+                                this.Hide();                                
                                 break;
+                               
                             case "Руководитель":
                                 MessageBox.Show("Руководитель");
+                                user.login = Login;
                                 break;
+                                
 
                         }
                     }

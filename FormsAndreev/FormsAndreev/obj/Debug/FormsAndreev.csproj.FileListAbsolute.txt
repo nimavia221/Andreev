@@ -10,3 +10,5 @@ E:\Andreev\Andreev\FormsAndreev\FormsAndreev\obj\Debug\FormsAndreev.pdb
 E:\Andreev\Andreev\FormsAndreev\FormsAndreev\obj\Debug\FormsAndreev.reg.resources
 E:\Andreev\Andreev\FormsAndreev\FormsAndreev\obj\Debug\FormsAndreev.manager.resources
 E:\Andreev\Andreev\FormsAndreev\FormsAndreev\obj\Debug\FormsAndreev.main.resources
+E:\Andreev\Andreev\FormsAndreev\FormsAndreev\obj\Debug\FormsAndreev.csproj.ResolveComReference.cache
+E:\Andreev\Andreev\FormsAndreev\FormsAndreev\obj\Debug\FormsAndreev.Zakaz.resources

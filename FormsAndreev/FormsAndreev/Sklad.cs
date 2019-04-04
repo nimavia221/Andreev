@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FormsAndreev
 {
-    public partial class Список_тканей : Form
+    public partial class Sklad : Form
     {
-        public Список_тканей()
+        public Sklad()
         {
             InitializeComponent();
         }

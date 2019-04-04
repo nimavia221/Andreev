@@ -27,8 +27,8 @@ namespace FormsAndreev
             bool num = false;
             bool pass_char = false;
             bool chr = false;
-            string login = textBox1.Text;
-            string pass = textBox2.Text;
+            string login = txtLogin.Text;
+            string pass = txtPass.Text;
             
             foreach(char a in pass)
             {
@@ -79,7 +79,7 @@ namespace FormsAndreev
 
                 if (i == 0)
                 {
-                    string name = textBox3.Text;
+                    string name = txtFIO.Text;
                     sqlUser = String.Format($"insert into Пользователь(Логин, Пароль, Роль, Наименование) values('{login.ToString()}', '{pass.ToString()}', 'Заказчик', '{name.ToString()}') ");
                     using (SqlConnection conn = new SqlConnection(connectionString))
                     {
